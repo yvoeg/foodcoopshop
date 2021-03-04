@@ -20,10 +20,5 @@
     </testsuite>
   </testsuites>
   <coverage processUncoveredFiles="true">
-    <include>
-      <directory suffix=".php">./src</directory>
-      <directory suffix=".php">./plugins/Admin/src</directory>
-      <directory suffix=".php">./plugins/Network/src</directory>
-    </include>
   </coverage>
 </phpunit>
