@@ -41,6 +41,12 @@ jobs:
           update: true #forces minor release update
                       
       - uses: actions/checkout@v2
+      
+      - name: Codecov
+        uses: codecov/codecov-action@v1
+        with:
+            flags: unittests
+            verbose: true      
                     
       - name: Setup DB
         run: |
