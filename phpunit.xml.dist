@@ -22,6 +22,7 @@
   <coverage>
     <include>
       <directory suffix=".php">src</directory>
+      <directory suffix=".php">templates</directory>
       <directory suffix=".php">plugins/Admin/src</directory>
       <directory suffix=".php">plugins/Network/src</directory>
     </include>
