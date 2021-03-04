@@ -14,16 +14,12 @@
   </php>
   <testsuites>
     <testsuite name="foodcoopshop">
-      <directory>./tests/TestCase/</directory>
       <directory>./plugins/Admin/tests/TestCase/</directory>
-      <directory>./plugins/Network/tests/TestCase/</directory>
     </testsuite>
   </testsuites>
   <coverage>
     <include>
-      <directory suffix=".php">src</directory>
       <directory suffix=".php">plugins/Admin/src</directory>
-      <directory suffix=".php">plugins/Network/src</directory>
     </include>
   </coverage>
 
