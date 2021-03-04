@@ -57,7 +57,7 @@ class ApiControllerTest extends AppCakeTestCase
         ]);
         $this->get('/api/getProducts.json');
         $this->assertResponseOk();
-        $this->_compareBasePath = TESTS . 'comparisons' . DS;
+        $this->_compareBasePath = ROOT . DS . 'plugins' . DS . 'Network' . DS . 'tests' . DS . 'comparisons' . DS;
 
         $preparedResponse = str_replace(
             [
