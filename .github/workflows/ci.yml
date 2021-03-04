@@ -68,7 +68,7 @@ jobs:
         if: always()
         run: | 
           if [[ ${{ matrix.php-version }} == '7.4' ]]; then
-            export CODECOVERAGE=1 && vendor/bin/phpunit --verbose --coverage-clover=app.xml && vendor/bin/phpunit --configuration=./plugins/Network/phpunit.xml.dist --verbose --coverage-clover=network.xml
+            export CODECOVERAGE=1 && vendor/bin/phpunit --verbose --coverage-clover=coverage.xml
           else
             vendor/bin/phpunit
           fi
@@ -77,4 +77,4 @@ jobs:
         if: matrix.php-version == '7.4'
         uses: codecov/codecov-action@v1
         with:
-            files: ./app.xml,./network.xml
+            files: ./coverage.xml
