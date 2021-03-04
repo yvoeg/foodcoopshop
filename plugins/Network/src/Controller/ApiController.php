@@ -1,7 +1,5 @@
 <?php
 
-namespace Network\Controller;
-
 use App\Lib\Error\Exception\InvalidParameterException;
 use Cake\Controller\Controller;
 use Cake\Core\Configure;

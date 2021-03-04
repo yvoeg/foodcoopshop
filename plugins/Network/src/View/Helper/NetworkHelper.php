@@ -1,9 +1,5 @@
 <?php
 /**
- * NetworkHelper
- *
- * TODO use cake's routing
- *
  * FoodCoopShop - The open source software for your foodcoop
  *
  * Licensed under The MIT License
@@ -16,8 +12,6 @@
  * @copyright     Copyright (c) Mario Rothauer, https://www.rothauer-it.com
  * @link          https://www.foodcoopshop.com
  */
-
-namespace Network\View\Helper;
 
 use Cake\View\Helper;
 

@@ -1,7 +1,5 @@
 <?php
 
-namespace Network\Model\Table;
-
 use App\Model\Table\AppTable;
 use Cake\Datasource\FactoryLocator;
 use Cake\Validation\Validator;
