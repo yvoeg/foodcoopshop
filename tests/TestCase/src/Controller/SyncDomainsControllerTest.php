@@ -14,7 +14,8 @@
  * @link          https://www.foodcoopshop.com
  */
 
-use App\Test\TestCase\AppCakeTestCase;
+namespace App\Test\TestCase;
+
 use App\Test\TestCase\Traits\AppIntegrationTestTrait;
 use App\Test\TestCase\Traits\LoginTrait;
 use Cake\View\View;
