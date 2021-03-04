@@ -13,8 +13,7 @@
  * @link          https://www.foodcoopshop.com
  */
 
-namespace App\Test\TestCase;
-
+use App\Test\TestCase\AppCakeTestCase;
 use App\Test\TestCase\Traits\AppIntegrationTestTrait;
 use Cake\Core\Configure;
 use Cake\TestSuite\StringCompareTrait;
