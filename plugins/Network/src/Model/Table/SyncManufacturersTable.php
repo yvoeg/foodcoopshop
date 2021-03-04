@@ -13,6 +13,8 @@
  * @link          https://www.foodcoopshop.com
  */
 
+namespace Network\Model\Table;
+
 use App\Model\Table\ManufacturersTable;
 
 class SyncManufacturersTable extends ManufacturersTable

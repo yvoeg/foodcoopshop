@@ -1,5 +1,7 @@
 <?php
 
+namespace Network\Controller;
+
 use App\Controller\AppController;
 use Cake\Event\EventInterface;
 use Cake\Http\Exception\NotFoundException;

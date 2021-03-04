@@ -1,5 +1,7 @@
 <?php
 
+namespace Network\Model\Table;
+
 use App\Model\Table\AppTable;
 
 /**
