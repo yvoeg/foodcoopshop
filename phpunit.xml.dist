@@ -13,9 +13,13 @@
     <server name="REQUEST_URI" value=""/>
   </php>
   <testsuites>
-    <testsuite name="foodcoopshop">
+    <testsuite name="app">
       <directory>./tests/TestCase/</directory>
+    </testsuite>
+    <testsuite name="admin">
       <directory>./plugins/Admin/tests/TestCase/</directory>
+    </testsuite>
+    <testsuite name="network">
       <directory>./plugins/Network/tests/TestCase/</directory>
     </testsuite>
   </testsuites>
