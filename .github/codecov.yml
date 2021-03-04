@@ -1,6 +1,6 @@
 codecov:
   require_ci_to_pass: yes
-  disable_default_path_fixes: no
+  disable_default_path_fixes: true
 
 coverage:
   range: "50...75"
