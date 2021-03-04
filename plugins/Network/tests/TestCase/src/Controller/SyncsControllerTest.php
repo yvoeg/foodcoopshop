@@ -1,6 +1,7 @@
 <?php
-namespace App\Test\TestCase;
+namespace Network\Test\TestCase;
 
+use App\Test\TestCase\AppCakeTestCase;
 use App\Test\TestCase\Traits\AppIntegrationTestTrait;
 use App\Test\TestCase\Traits\LoginTrait;
 use Cake\Core\Configure;
