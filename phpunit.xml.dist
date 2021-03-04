@@ -19,12 +19,12 @@
       <directory>./plugins/Network/tests/TestCase/</directory>
     </testsuite>
   </testsuites>
-  <!-- Prevent coverage reports from looking in tests, vendors, config folders -->
-  <filter>
-      <whitelist>
-          <directory suffix=".php">src/</directory>
-          <directory suffix=".php">plugin/Admin/src/</directory>
-          <directory suffix=".php">plugin/Network/src/</directory>
-      </whitelist>
-  </filter>
+  <coverage>
+    <include>
+      <directory suffix=".php">src</directory>
+      <directory suffix=".php">plugins/Admin/src</directory>
+      <directory suffix=".php">plugins/Network/src</directory>
+    </include>
+  </coverage>
+
 </phpunit>
