@@ -3,5 +3,6 @@ codecov:
 
 coverage:
   range: "50...75"
+  precision: 2
 
 comment: false
