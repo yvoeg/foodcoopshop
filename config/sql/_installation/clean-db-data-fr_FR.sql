@@ -84,7 +84,7 @@ INSERT INTO `fcs_category` VALUES
 
 /*!40000 ALTER TABLE `fcs_configuration` DISABLE KEYS */;
 INSERT INTO `fcs_configuration` VALUES
-(11,1,'FCS_PRODUCT_AVAILABILITY_LOW','Low availability<br /><div class=\"small\">From which amount on there should be an information text visible \"(x available\")?</div>','10','number',600,'en_US','2017-07-26 13:24:47','2014-06-01 01:40:34'),
+(11,1,'FCS_PRODUCT_AVAILABILITY_LOW','faible disponibilité<br /><div class=\"small\">À partir de quel montant il devrait y avoir un texte d'information visible \"(x disponible\")?</div>','10','number',600,'fr_FR','2017-07-26 13:24:47','2014-06-01 01:40:34'),
 (31,1,'FCS_DAYS_SHOW_PRODUCT_AS_NEW','How many days products should be \"marked as new\"?','7','number',700,'en_US','2017-07-26 13:24:47','2014-05-14 21:15:45'),
 (456,1,'FCS_FOOTER_CMS_TEXT','Additional text for footer',NULL,'textarea_big',800,'en_US','2014-06-11 17:50:55','2016-07-01 21:47:47'),
 (508,1,'FCS_FACEBOOK_URL','Facebook url for embedding in footer','https://www.facebook.com/FoodCoopShop/','text',900,'en_US','2015-07-08 13:23:54','2015-07-08 13:23:54'),
