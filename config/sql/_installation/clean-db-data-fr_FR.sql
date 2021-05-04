@@ -144,13 +144,13 @@ INSERT INTO `fcs_configuration` VALUES
 
 /*!40000 ALTER TABLE `fcs_cronjobs` DISABLE KEYS */;
 INSERT INTO `fcs_cronjobs` VALUES
-(1,'BackupDatabase','day',NULL,NULL,'04:00:00',1),
-(2,'CheckCreditBalance','week',NULL,'Friday','22:30:00',1),
-(3,'EmailOrderReminder','week',NULL,'Monday','18:00:00',1),
-(4,'PickupReminder','week',NULL,'Monday','09:00:00',1),
-(5,'SendInvoicesToManufacturers','month',11,NULL,'10:30:00',1),
-(6,'SendOrderLists','day',NULL,NULL,'04:30:00',1),
-(7,'SendInvoicesToCustomers','week',NULL,'Saturday','10:00:00',0);
+(1,'BackupDatabase','Jour',NULL,NULL,'04:00:00',1),
+(2,'CheckCreditBalance','Semaine',NULL,'Vendredi','22:30:00',1),
+(3,'EmailOrderReminder','Semaine',NULL,'Lundi','18:00:00',1),
+(4,'PickupReminder','Semaine',NULL,'Lundi','09:00:00',1),
+(5,'SendInvoicesToManufacturers','Mois',11,NULL,'10:30:00',1),
+(6,'SendOrderLists','Jour',NULL,NULL,'04:30:00',1),
+(7,'SendInvoicesToCustomers','Semaine',NULL,'Samedi','10:00:00',0);
 /*!40000 ALTER TABLE `fcs_cronjobs` ENABLE KEYS */;
 
 /*!40000 ALTER TABLE `fcs_customer` DISABLE KEYS */;
